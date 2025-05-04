@@ -1,0 +1,28 @@
+.whatsapp-audio {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  .play-btn {
+    background-color: #075e54;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .waveform {
+    flex: 1;
+  }
+  
