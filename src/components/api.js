@@ -17,7 +17,7 @@
 //     }
 //   }
 export async function callBotAPI({ type, content, file }) {
-  const url = "http://localhost:5678/webhook-test/bot";
+  const url = "https://fusionl.app.n8n.cloud/webhook/bot";
 
   if (file) {
     const fd = new FormData();
